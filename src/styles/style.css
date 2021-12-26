@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background: #0ecbe4;
+    text-align: center;
+    font-family: 'Pushster', cursive;
+}
+
+.logo {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+header input {
+    font-size: 20px;
+    margin: 20px 0px;
+    font-family: 'Pushster', cursive;
+}
