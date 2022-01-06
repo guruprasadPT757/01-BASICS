@@ -1,29 +1,17 @@
-import React, {Component}  from "react";
-import ReactDOM from "react-dom"
+import React  from "react";
 
 
-class Header extends Component {
+const Header = (props) => {
     
-
-    onTextChangedHandler(event, parameter) {
-        console.log("input event handled..."+ event.target.value + parameter)
-    }
-    
-    render() {
-
-        return (
+    return (
         
-            <header>
-                <div>Header</div>
-                <input
-                    onChange={ (e) => this.onTextChangedHandler(e, "extra data passed") }
-                />
-            </header>
+        <header>
+            <div className="logo">Header</div>
+            <input onChange={props.topic}/>
+        </header>
 
-        )
-    }
+    )
        
 }
-
 
 export default Header;

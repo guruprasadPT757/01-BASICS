@@ -9,13 +9,21 @@ header {
 }
 
 .logo {
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     font-size: 40px;
 }
 
 header input {
+
     font-size: 20px;
     margin: 20px 0px;
     font-family: 'Pushster', cursive;
+}
+
+.user_item {
+    padding: 10px;
+    border: #000;
+    border-style: inset;
+    margin: 10px;
 }
